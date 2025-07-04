@@ -1,4 +1,6 @@
-let celsius = 10; 
-let fahrenheit = celsius * 1.8 + 32;
+let cash = 20
+let price = 40
+let isStoreOpen = true
 
-console.log (fahrenheit)
+str = cash >= price && isStoreOpen  ? 'give receipt' : 'dont give receipt'
+console.log(str)
