@@ -1,5 +1,12 @@
-const str = "Frontend Simplified"
+let grades = ['A+', 'A', 'Fail' ]
 
-for (let i = 0; i < str.length; ++i) {
-console.log(str [i])
+ let goodGrades = []
+
+for (let i = 0; i < grades.length; ++i) {
+   if (grades[i] !== 'Fail') {
+    goodGrades.push(grades[i]);
+   }
+    
 }
+console.log(goodGrades)
+
