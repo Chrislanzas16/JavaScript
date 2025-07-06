@@ -1,12 +1,7 @@
-let grades = ['A+', 'A', 'Fail' ]
+ let dollars = [1, 5, 10, 3];
+ let cents = [];
 
- let goodGrades = []
-
-for (let i = 0; i < grades.length; ++i) {
-   if (grades[i] !== 'Fail') {
-    goodGrades.push(grades[i]);
-   }
-    
-}
-console.log(goodGrades)
-
+for (let i = 0; i < dollars.length; ++i) {
+    cents.push(dollars[i] * 100 ) ; 
+  }
+  console.log(cents) 
