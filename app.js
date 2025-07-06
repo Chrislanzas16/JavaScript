@@ -1,7 +1,20 @@
- let dollars = [1, 5, 10, 3];
- let cents = [];
+let users = [
+    {
+        username: "David",
+        email: "david@frontendsimplified.com",
+        subscriptionStatus: "VIP",
+        discordId: "David Bragg#0001",
+        lessonsCompleted: [0, 1],
+    },
+    
+    {
+        username: "Mitri",
+        email: "mitri@frontendsimplified.com",
+        subscriptionStatus: "VIP",
+        discordId: "Mitri#0001",
+        lessonsCompleted: [0, 1, 2, 3],
+    },
 
-for (let i = 0; i < dollars.length; ++i) {
-    cents.push(dollars[i] * 100 ) ; 
-  }
-  console.log(cents) 
+];
+
+console.log(users[0])
